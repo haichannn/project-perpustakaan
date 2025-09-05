@@ -9,10 +9,10 @@ ini memungkinkan pengguna untuk menambahkan, menghapus, dan melihat daftar buku 
 - Mencari buku berdasarkan judul atau penulis.
 
 ## Teknologi yang Digunakan
-- Laravel 11.0
-- PHP 8.2
-- MySQL
-- tailwindcss
+- [Laravel 11.0](https://laravel.com)
+- [PHP 8.2](https://www.php.net)
+- [MariaDB](https://mariadb.org)
+- [bootstrap 5](https://getbootstrap.com)
 
 ## Instalasi
 1. Clone repository ini ke dalam direktori lokal Anda.
@@ -40,9 +40,13 @@ ini memungkinkan pengguna untuk menambahkan, menghapus, dan melihat daftar buku 
     ```bash
     php artisan migrate
     ```
-7. Jalankan server pengembangan.
+7. Jalankan seed untuk membuat data dummy
+    ```bash
+    php artisan db:seed
+    ```
+8. Jalankan server pengembangan.
     ```bash
     php artisan serve
     ```
-8. Akses aplikasi melalui browser di `http://localhost:8000`.
+9. Akses aplikasi melalui browser di `http://localhost:8000`.
 
