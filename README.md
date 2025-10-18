@@ -3,8 +3,9 @@ Proyek ini adalah aplikasi sederhana untuk mengelola data buku di perpustakaan. 
 ini memungkinkan pengguna untuk menambahkan, menghapus, dan melihat daftar buku yang tersedia di perpustakaan.
 
 ## Fitur
-- Menambahkan buku baru dengan judul, penulis, dan tahun terbit.
-- Menghapus buku berdasarkan judul.
+- Menambahkan buku baru dengan judul, penulis, isbn, penerbit, dan tahun terbit.
+- Mengedit informasi buku yang sudah ada.
+- Menghapus buku dari daftar.
 - Melihat daftar semua buku yang tersedia di perpustakaan.
 - Mencari buku berdasarkan judul atau penulis.
 
@@ -48,5 +49,10 @@ ini memungkinkan pengguna untuk menambahkan, menghapus, dan melihat daftar buku 
     ```bash
     php artisan serve
     ```
-9. Akses aplikasi melalui browser di `http://localhost:8000`.
+9. Akses aplikasi melalui browser di `http://localhost:8000/books`.
+
+## Social Media
+- [GitHub](https://github.com/haichannn/)
+- [Instagram](https://instagram.com/_haichannn)
+- [Facebook](https://facebook.com/MuhammadHaichal)
 

@@ -18,16 +18,10 @@ class CategoriesFactory extends Factory
      * @var string
      */
     private static $defaultCategories = [
-        'Fiction',
-        'Non-Fiction',
-        'Science Fiction',
-        'Fantasy',
-        'Mystery',
-        'Biography',
-        'History',
-        'Children\'s',
-        'Young Adult',
-        'Romance',
+        'Komputer',
+        'Jaringan komputer',
+        'Programming',
+        'Cyber securiry'
     ];
 
     /**

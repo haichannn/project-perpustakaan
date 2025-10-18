@@ -14,7 +14,7 @@ class CategoriesSeeder extends Seeder
     {
         // Create 10 categories using the Categories factory
         Categories::factory()
-            ->count(10)
+            ->count(4)
             ->create();
     }
 }
