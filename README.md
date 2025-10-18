@@ -51,8 +51,14 @@ ini memungkinkan pengguna untuk menambahkan, menghapus, dan melihat daftar buku 
     ```
 9. Akses aplikasi melalui browser di `http://localhost:8000/books`.
 
+## Galeri 
+![image page home](resources/images/image_1.png) 
+<br>
+![image page edit book](resources/images/image_2.png)
+<br>
+![image page add book](resources/images/image_3.png)
+
 ## Social Media
 - [GitHub](https://github.com/haichannn/)
 - [Instagram](https://instagram.com/_haichannn)
-- [Facebook](https://facebook.com/MuhammadHaichal)
 
